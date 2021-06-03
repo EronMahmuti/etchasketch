@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+}
+.container{
+    height: 80vh;
+    display: grid;
+    margin: 1rem 22rem;
+}
+.content{
+    display: grid;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 2rem 2rem;
+    border: 4px solid #333;
+}
+.grid{
+    background-color: whitesmoke;
+    border: 2px solid #888;
+    
+}
+.row{
+    background-color: salmon;
+}
+
+.rects{
+    background-color: salmon;
+}
+
+#restart-btn{
+    padding: 8px;
+    margin: 20px;
+    margin-left: 37rem;
+    max-width: 100px;
+    text-align: center;
+}
+.grid-element{
+    border: 1px solid #333;
+}
